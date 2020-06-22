@@ -1,0 +1,131 @@
+body,
+html {
+  font-family: 'Titillium Web', sans-serif;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.bg-fade-in {
+  background-color: black;
+  height: 100vh;
+}
+
+.hero {
+  /* background-image: url(img/rocket2.jpg); */
+  background-image: url('img/rocket2.jpg');
+  height: 100vh;
+  background-size: 170%;
+  background-position: 15% 55%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.covid {
+  height: 4rem;
+
+  background: #ec008c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #fc6767,
+    #ec008c
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #fc6767,
+    #ec008c
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.fade-in {
+  animation: fadeIn ease 9s;
+  -webkit-animation: fadeIn ease 9s;
+  -moz-animation: fadeIn ease 9s;
+  -o-animation: fadeIn ease 9s;
+  -ms-animation: fadeIn ease 9s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.menu-card {
+  border: 1px solid #e8e8e8;
+  box-shadow: -1px 3px 15px 0 rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+}
+
+.slogan {
+  height: 85vh;
+  vertical-align: text-bottom;
+}
+
+.menu-item {
+  display: flex;
+  height: 100px;
+  width: 100px;
+  background-color: pink;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  max-width: 50%;
+  height: auto;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.newnav {
+  width: 100vw;
+  height: 15%;
+}
