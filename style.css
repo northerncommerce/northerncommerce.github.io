@@ -102,10 +102,10 @@ html {
   align-items: center;
 }
 
-.slogan {
+/* .slogan {
   height: 85vh;
   vertical-align: text-bottom;
-}
+} */
 
 .menu-item {
   display: flex;
@@ -128,4 +128,71 @@ img {
 .newnav {
   width: 100vw;
   height: 15%;
+}
+
+.block {
+  height: 1rem;
+}
+
+.pack {
+  background-image: url('img/pack.jpg');
+  background-size: cover;
+}
+
+.gradient1 {
+  background: #7474bf; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #348ac7,
+    #7474bf
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #348ac7,
+    #7474bf
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.gradient2 {
+  background: #7474bf; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #7474bf,
+    #348ac7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #7474bf,
+    #348ac7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.whitespace {
+  margin: 0 3rem;
+}
+
+.menu-card i {
+  background: -moz-linear-gradient(top, #fc6767 0%, #ec008c 100%);
+  background: -webkit-linear-gradient(top, #fc6767 0%, #ec008c 100%);
+  background: linear-gradient(to bottom, #fc6767 0%, #ec008c 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.to {
+  background-image: url('img/riverside.jpg');
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.banner1 {
+  height: 25rem;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.banner2 {
+  height: 30rem;
+  font-family: 'Permanent Marker', cursive;
 }
