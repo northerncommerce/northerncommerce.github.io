@@ -1,299 +1,633 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <script src="https://kit.fontawesome.com/3e4661768b.js" crossorigin="anonymous"></script>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
-      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
-      crossorigin="anonymous"
-    />
+  <script src="https://kit.fontawesome.com/3e4661768b.js" crossorigin="anonymous"></script>
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&display=swap"
-      rel="stylesheet"
-    />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous" />
 
-    <link href="https://fonts.googleapis.com/css2?family=Mansalva&family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap"
+    rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Mansalva&family=Permanent+Marker&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="style.css" />
+  <title>Vision Quest</title>
+</head>
+
+<body>
+
+  <div class="hero d-flex flex-column fade-in bg-fade-in">
     
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
+      <!-- <div class="hero fade-in d-flex flex-column"> -->
 
-    <link rel="stylesheet" href="style.css" />
-    <title>Vision Quest</title>
-  </head>
+      <!-- NAV BAR -->
 
-  <body>
-    <div class="bg-fade-in">
-      <div class="hero fade-in d-flex flex-column">
-        <!-- NAV BAR -->
+      <!-- need to add in the 'active' class at some point -->
 
-        <!-- need to add in the 'active' class at some point -->
+      
+        <nav class="navbar navbar-dark navbar-expand-sm">
 
-        <div class="d-flex flex-row newnav">
-          <h1 class="p-2 ml-1 text-white mr-auto">VQwebsites</h1>
+          <h1 class="p-2 ml-1 text-white">VQwebsites</h1>
 
-          <a class="text-white p-3" href="#">STRATEGY</a>
-          <a class="text-white p-3" href="#">ABOUT</a>
-          <a class="text-white p-3" href="#">PRICING</a>
-          <a class="text-white p-3" href="#">CONTACT</a>
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse text-right" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="#home" class="nav-link text-white">
+                  <h5>STRATEGY</h5>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#explore-head-section" class="nav-link text-white">
+                  <h5>ABOUT</h5>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#create-head-section" class="nav-link text-white">
+                  <h5>PRICING</h5>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#share-head-section" class="nav-link text-white">
+                  <h5>CONTACT</h5>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+    
+
+       
+          
+          <div class="ml-5 mt-auto">
+        
+            <p class="display-3 text-white">We build websites.</p>
+        
+          </div>
+        
+        
+        
+          <div class="p-5">
+        
+            <p class="display-4 text-white">So your business can thrive online.</p>
+        
+          </div>
+        
+        
+        
+  </div>
+
+    <!-- COVID-19 ALERT SECTION -->
+
+    <div class="covid">
+
+      <h5 class="text-white py-4 text-center">We are committed to helping our client business adapt during COVID-19.
+        Click here to explore resources...</h5>
+
+    </div>
+
+    <!-- WHITESPACE BANNER -->
+    <div class="container-fluid whitebanner"></div>
+
+    <div class="container slogan mt-3 pt-5 mb-1">
+      <p class="text-center display-4">Our mission is to help small businesses attract customers with beautiful and
+        interactive websites.</h2>
+    </div>
+
+    <!-- WHITESPACE BANNER -->
+    <div class="container-fluid whitebanner"></div>
+     <!-- WHITESPACE BANNER -->
+     <div class="container-fluid whitebanner"></div>
+
+    <!-- PHOTO COMP -->
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6 comp-L pr-5">
+          <img src="/img/whiteboard.jpg" alt="whiteboard" class="comp-photo-1">
+          <img src="/img/builder-lrg.jpg" alt="builder-building" class="comp-photo-2">
+          <img src="/img/retail-group.jpg" alt="cashiers" class="comp-photo-3">
+    
         </div>
-
-        <div class="d-flex flex-row text-white mt-auto ml-5">
-          <p><h2>We build websites for small business owners <br> seeking to attract customers through their website.</h2></p>
+    
+        <div class="col-md-6">
+    
+          <p class="h3 px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+            reprehenderit veniam, dolore minus vero excepturi nobis tempora quo error saepe nesciunt maiores accusantium
+            officia? Similique minima incidunt tempora in expedita, voluptatum vero ullam doloremque dolorum ab
+            molestiae neque, dignissimos facere!</h3>
+    
         </div>
+      </div>
+    </div>
+    
+    <h1 class="text-center display-4 pb-3">We Are...</h1>
 
-        <div class="d-flex flex-row text-white ml-5 mt-5">
-          <p><h2>So your business can thrive online.</h2></p>
-        </div>
 
-        <div class="d-flex flex-row mt-auto">
-          <button
-            type="button"
-            class="btn btn-lg btn-outline-light learn-button ml-auto m-3"
-          >
-            <h3 class="pt-2">Launch</h3>
+    <!-- VALUE PROPOSITION 3-COUNT -->
+
+<div class="container-md">
+  <div class="row mt-5">
+
+    <div class="col-md mb-5 mt-5 text-center">
+
+
+      <span>Website Specialists</span>
+      <div class="value-prop p-4 text-justify mx-auto">Lorem ipsum dolor sit amet consectetur,
+        adipisicing elit. Similique
+        adipisci accusamus iure et vero ipsam. Libero pariatur provident ex eligendi voluptate illo, quis, totam quo
+        dolorum, hic ea dolorem. Lorem, ipsum dolor sit amet.</div>
+
+    </div>
+
+    <div class="col-md mb-5 mt-5 text-center">
+
+
+      <span>Website Specialists</span>
+      <div class="value-prop p-4 text-justify mx-auto">Lorem ipsum dolor sit amet consectetur,
+        adipisicing elit. Similique
+        adipisci accusamus iure et vero ipsam. Libero pariatur provident ex eligendi voluptate illo, quis, totam quo
+        dolorum, hic ea dolorem. Lorem, ipsum dolor sit amet.</div>
+
+    </div>
+
+    <div class="col-md mb-5 mt-5 text-center">
+
+
+      <span>Website Specialists</span>
+      <div class="value-prop p-4 text-justify mx-auto">Lorem ipsum dolor sit amet consectetur,
+        adipisicing elit. Similique
+        adipisci accusamus iure et vero ipsam. Libero pariatur provident ex eligendi voluptate illo, quis, totam quo
+        dolorum, hic ea dolorem. Lorem, ipsum dolor sit amet.</div>
+
+    </div>
+
+  </div>
+</div>
+
+    <!-- WHITESPACE BANNER -->
+    <div class="container-fluid whitebanner"></div>
+
+
+    <div class="container pt-5">
+      <div class="row justify-content-center">
+        <!-- <div class="col-3"></div> -->
+        <div class="col-6 mb-5">
+          <button class="btn btn-cta btn-lg btn-block">
+            <h1 class="text-white text-center">CONTACT US</h1>
           </button>
         </div>
+        <!-- <div class="col-3"></div> -->
+      </div>
+      <h5 class="display-5 text-center">* CONTACT US AND WE WILL EMAIL YOU BACK, BUT WILL ONLY CALL IF YOU REQUEST :)
+      </h5>
+    </div>
+
+
+    <!-- WHITESPACE BANNER -->
+    <div class="container-fluid whitebanner"></div>
+    <!-- WHITESPACE BANNER -->
+    <div class="container-fluid whitebanner"></div>
+
+    <!-- BANNER DIVIDER -->
+
+    <div class="container-fluid mb-3 mt-5 pt-5">
+      <div class="row banner1">
+        <div class="col-7 text-center gradient1">
+          <p class="p-4">
+          <h1 class="marker p-2">100% SATISFACTION GUARANTEE</h1>
+          </p>
+          <p class="white-text p-2">If for any reason you are unsatisfied with your website, we offer a 100% guarantee
+            on your money after 30 days of going live.</p>
+          <button type="button" class="btn btn-bright btn-lg mt-5">Get In Touch</button>
+        </div>
+        <div class="col-5 text-center pack"></div>
       </div>
     </div>
 
-<!-- COVID-19 ALERT SECTION -->
 
-<div class="covid">
+    <!-- WHITESPACE BANNER -->
+    <div class="container-fluid whitebanner"></div>
+    <!-- WHITESPACE BANNER -->
+    <div class="container-fluid whitebanner"></div>
 
-  <h5 class="text-white py-4 text-center">We are committed to helping our client business adapt during COVID-19.  Click here to explore resources...</h5>
+    <!-- PRICING SECTION -->
 
-</div>
-<br>
+    <h1 class="text-center display-1 p-5">PRICING</h1>
+    <h5 class="text-center mx-5 mb-5 px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis tenetur, nihil
+      non vel necessitatibus amet pariatur blanditiis, sint at minima expedita autem esse repellendus voluptatem fugit
+      et consequuntur ut voluptatibus!</h5>
 
-<div class="container slogan mt-3 pt-5 mb-1 pb-5">
-  <p class="text-center display-4 pb-4">Our mission is to help small businesses attract customers with beautiful and
-    interactive websites.</h2>
-  <p class="text-center h5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis sed accusamus quae odio,
-    itaque, veniam necessitatibus autem, reprehenderit quam dolore ex ad minima distinctio natus!</p>
-  <p class="text-center h5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate, quia?</p>
-  <p class="text-center h5">Lorem ipsum dolor sit amet.</p>
+    <!-- WHITESPACE BANNER -->
+    <div class="container-fluid whitebanner"></div>
 
-</div>
+    <!-- PRICING CARDS -->
 
-<div class="container-fluid mb-3">
-  <div class="row banner1">
-    <div class="col-7 text-center border gradient1">
-      <p class="p-5"><h1>ELEVATE YOUR WEBSITE WITH A FANCY ONE FROM GARY ... WHO IS KOKO'S BOYFRIEND</h1></p>
+    <div class="container">
+
+      <div class="row justify-content-around">
+
+        <div class="col-5">
+
+          <div class="pricing-card">
+            <h2 class="text-light p-5 display-4 font-weight-bold pricing-card-header1 text-center">WEBSITE BUILD
+              <h1 class="display-3 font-weight-bold pt-4 pb-2 font-italic text-center" style="color:#348ac7;">$999</h1>
+              <div class="d-flex flex-column align-items-center">
+                <h4 class="font-weight-bolder p-4 underline text-dark text-center">Choose Your Template</h4>
+                <h4 class="font-weight-bolder p-4 underline text-dark text-center">Web Strategy Sessions</h4>
+                <h4 class="font-weight-bolder p-4 underline text-dark text-center">Online Team Building</h4>
+                <h4 class="font-weight-bolder p-4 underline text-dark text-center">Security Setup - SSL Cert.</h4>
+                <h4 class="font-weight-bolder p-4 mb-5 underline text-dark text-center">7 Pages & 2 Forms Built For You
+                </h4>
+              </div>
+          </div>
+        </div>
+
+        <div class="col-5">
+          <div class="pricing-card">
+            <h2 class="text-light py-5 display-4 font-weight-bold pricing-card-header2 text-center">WEBSITE MAINTAIN
+            </h2>
+            <h1 class="display-3 font-weight-bold pt-4 pb-2 font-italic text-center" style="color:#ec008c;">$99/mo</h1>
+            <div class="d-flex flex-column align-items-center">
+              <h4 class="font-weight-bolder p-4 underline text-dark text-center">Choose Your Template</h4>
+              <h4 class="font-weight-bolder p-4 underline text-dark text-center">Web Strategy Sessions</h4>
+              <h4 class="font-weight-bolder p-4 underline text-dark text-center">Online Team Building</h4>
+              <h4 class="font-weight-bolder p-4 underline text-dark text-center">Security Setup - SSL Cert.</h4>
+              <h4 class="font-weight-bolder p-4 mb-5 underline text-dark text-center">7 Pages & 2 Forms Built For You
+              </h4>
+            </div>
+          </div>
+
+        </div>
+      </div>
     </div>
-    <div class="col-5 text-center border pack"></div>
+
+
+
+    <!-- WHITESPACE BANNER -->
+    <div class="container-fluid whitebanner"></div>
+    <!-- WHITESPACE BANNER -->
+    <div class="container-fluid whitebanner"></div>
+
+
+    <!-- BANNER DIVIDER -->
+
+    <div class="container-fluid mb-3 mt-5 pt-5 mb-5">
+      <div class="row banner1">
+        <div class="col-5 text-center architect"></div>
+        <div class="col-7 text-center gradient1">
+          <p class="p-4">
+          <h1 class="marker p-2">100% SATISFACTION GUARANTEE</h1>
+          </p>
+          <p class="white-text p-2">If for any reason you are unsatisfied with your website, we offer a 100% guarantee
+            on your money after 30 days of going live.</p>
+          <button type="button" class="btn btn-bright btn-lg mt-5">Get In Touch</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- WHITESPACE BANNER -->
+    <div class="container-fluid whitebanner"></div>
+
+
+    <!-- OUR PROCESS SECTION -->
+    <!-- ILLUSTRATIONS FROM MANYPIXELS.CO -->
+
+    <h1 class="text-center display-1 p-5 mb-5">OUR PROCESS</h1>
+
+    <div class="container">
+
+      <div class="row mb-5">
+        <div class="col text-center"><img class="svg" src="/img/svg/video_call.svg" alt="video call with client"
+            height="400" width="400"></div>
+        <div class="col text-center">
+          <h2 class="display-4 p-5">1. Set Goals</h2>
+          <p>
+          <h5>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, dolorum. Excepturi mollitia fugit,
+            blanditiis, recusandae adipisci iste eaque quasi distinctio iusto quo earum repellat atque nulla deserunt
+            nihil quam temporibus voluptatum error soluta aliquid! Ab officia eius quos accusantium autem.</h5>
+          </p>
+        </div>
+      </div>
+
+      <div class="row mb-5">
+        <div class="col text-center">
+          <h2 class="display-4 p-5">2. Draft Design</h2>
+          <p>
+          <h5>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, dolorum. Excepturi mollitia fugit,
+            blanditiis, recusandae adipisci iste eaque quasi distinctio iusto quo earum repellat atque nulla deserunt
+            nihil quam temporibus voluptatum error soluta aliquid! Ab officia eius quos accusantium autem.</h5>
+          </p>
+        </div>
+        <div class="col text-center"><img class="svg" src="/img/svg/designer__isometric.svg"
+            alt="video call with client" height="400" width="400">
+        </div>
+      </div>
+
+      <div class="row mb-5">
+        <div class="col text-center"><img class="svg" src="/img/svg/online_presentation.svg"
+            alt="video call with client" height="400" width="400"></div>
+        <div class="col text-center">
+          <h2 class="display-4 p-5">3. Fine Tuning</h2>
+          <p>
+          <h5>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, dolorum. Excepturi mollitia fugit,
+            blanditiis, recusandae adipisci iste eaque quasi distinctio iusto quo earum repellat atque nulla deserunt
+            nihil quam temporibus voluptatum error soluta aliquid! Ab officia eius quos accusantium autem.</h5>
+          </p>
+        </div>
+      </div>
+
+      <div class="row mb-5">
+        <div class="col text-center">
+          <h2 class="display-4 p-5">4. Website Launch</h2>
+          <p>
+          <h5>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, dolorum. Excepturi mollitia fugit,
+            blanditiis, recusandae adipisci iste eaque quasi distinctio iusto quo earum repellat atque nulla deserunt
+            nihil quam temporibus voluptatum error soluta aliquid! Ab officia eius quos accusantium autem.</h5>
+          </p>
+        </div>
+        <div class="col text-center"><img class="svg" src="/img/svg/start_up.svg" alt="video call with client"
+            height="400" width="400">
+        </div>
+      </div>
+
+
+      <div class="row mb-5">
+        <div class="col text-center"><img class="svg" src="/img/svg/finance_analysis_.svg" alt="video call with client"
+            height="400" width="400"></div>
+        <div class="col text-center">
+          <h2 class="display-4 p-5">5. Performance Analysis</h2>
+          <p>
+          <h5>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, dolorum. Excepturi mollitia fugit,
+            blanditiis, recusandae adipisci iste eaque quasi distinctio iusto quo earum repellat atque nulla deserunt
+            nihil quam temporibus voluptatum error soluta aliquid! Ab officia eius quos accusantium autem.</h5>
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- WHITESPACE BANNER -->
+    <div class="container-fluid whitebanner"></div>
+
+
+    <!-- BANNER DIVIDER -->
+
+    <div class="container-fluid mb-3 mt-5 pt-5">
+      <div class="row banner1">
+        <div class="col-7 text-center gradient1">
+          <p class="p-4">
+          <h1 class="marker p-2">100% SATISFACTION GUARANTEE</h1>
+          </p>
+          <p class="white-text p-2">If for any reason you are unsatisfied with your website, we offer a 100% guarantee
+            on your money after 30 days of going live.</p>
+          <button type="button" class="btn btn-bright btn-lg mt-5">Get In Touch</button>
+        </div>
+        <div class="col-5 text-center pack"></div>
+      </div>
+    </div>
+
+    <!-- WHITESPACE BANNER -->
+    <div class="container-fluid whitebanner"></div>
+    <!-- WHITESPACE BANNER -->
+    <div class="container-fluid whitebanner"></div>
+
+    <!-- SERVICE DESCRIPTIONS CARD MENU -->
+
+    <!-- 2 columns with horizontally aligned cards and icon images -->
+    <!-- EACH CARD IS A FLEX BOX CONTAINER -->
+
+    <div class="container py-3 mt-3">
+      <h1 class="display-3 text-center pb-5 mb-5" style="font-weight:600;">WE CAN BUILD YOUR WEB PRESENCE IN THESE AREAS
+      </h1>
+
+      <div class="row whitespace">
+
+        <div class="col px-5">
+          <div class="menu-card"><i class="fa fa-laptop-code fa-4x p-3"></i>
+            <div class="px-2">
+              <h5>Web Design</h5>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex quis eos aut accusantium, repudiandae nam.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col px-5">
+          <div class="menu-card"><i class="fas fa-cloud-upload-alt fa-4x p-3"></i>
+            <div class="px-2">
+              <h5>Web Hosting</h5>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex quis eos aut accusantium, repudiandae nam.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container py-3">
+      <div class="row whitespace">
+
+        <div class="col px-5">
+          <div class="menu-card"><i class="fas fa-shopping-cart fa-4x p-3"></i>
+            <div class="px-2">
+              <h5>E-Commerce</h5>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex quis eos aut accusantium, repudiandae nam.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col px-5">
+          <div class="menu-card"><i class="fab fa-google fa-4x p-3"></i>
+            <div class="px-2">
+              <h5>Google My Business</h5>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex quis eos aut accusantium, repudiandae nam.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container py-3 mb-5">
+      <div class="row whitespace">
+
+        <div class="col px-5">
+          <div class="menu-card"><i class="fas fa-file-invoice-dollar fa-4x pl-4 pr-4"></i>
+            <div class="px-2">
+              <h5>Book Customers Online</h5>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex quis eos aut accusantium, repudiandae nam.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col px-5 mb-5">
+          <div class="menu-card"><i class="fas fa-users fa-4x p-3"></i>
+            <div class="px-2">
+              <h5>Build Online Teams</h5>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex quis eos aut accusantium, repudiandae nam.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-</div>
+  </div>
 
-<br><br>
 
-<!-- <br>
-<br> -->
+  <!-- WHITESPACE BANNER -->
+  <div class="container-fluid whitebanner"></div>
+  <!-- WHITESPACE BANNER -->
+  <div class="container-fluid whitebanner"></div>
 
-<!-- SERVICE DESCRIPTIONS CARD MENU -->
+  <!-- CONTACT FORM -->
 
-<!-- 2 columns with horizontally aligned cards and icon images -->
-<!-- EACH CARD IS A FLEX BOX CONTAINER -->
-
-<div class="container py-3">
-
-  <div class="row whitespace">
-
-    <div class="col px-5">
-      <div class="menu-card"><i class="fa fa-laptop-code fa-4x p-3"></i>
-        <div class="px-2">
-          <h5>Web Design</h5>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex quis eos aut accusantium, repudiandae nam.</p>
-        </div>
+  <div class="container-fluid banner2">
+    <div class="row">
+      <div class="col-5 text-center to">
       </div>
-    </div>
 
-    <div class="col px-5">
-      <div class="menu-card"><i class="fas fa-cloud-upload-alt fa-4x p-3"></i>
-        <div class="px-2">
-          <h5>Web Hosting</h5>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex quis eos aut accusantium, repudiandae nam.</p>
+      <div class="col-7 gradient2 p-5">
+
+        <h4 class="contact mb-4 text-white">Get in touch with us to schedule a free consultation</h4>
+
+        <div class="d-flex flex-row p-0 ml-5 mb-3">
+          <div class="d-flex flex-col mt-3">
+            <i class="fas fa-phone-square-alt fa-3x"></i>
+          </div>
+          <div class="d-flex flex-col pt-4 pl-5 contact">
+            <h4 class="text-white">(416) 578-9849</h4>
+          </div>
         </div>
+
+        <div class="d-flex flex-row p-0 ml-5 mb-3">
+          <div class="d-flex flex-col mt-3">
+            <i class="fas fa-envelope-square fa-3x"></i>
+          </div>
+          <div class="d-flex flex-col pt-4 pl-5 contact">
+            <h4 class="text-white">info@vqwebsites.com</h4>
+          </div>
+        </div>
+
+        <div class="d-flex flex-row p-0 ml-5">
+          <div class="d-flex flex-col mt-3">
+            <i class="fas fa-building fa-3x"></i>
+          </div>
+          <div class="d-flex flex-col pt-4">
+            <ul class="pl-5 contact">
+              <li>
+                <h4 class="text-white">1 Yonge Street</h4>
+              </li>
+              <li>
+                <h4 class="text-white">Suite 1801</h4>
+              </li>
+              <li>
+                <h4 class="text-white">Toronto, ON</h4>
+                </Toronto>
+              </li>
+              <li>
+                <h4 class="text-white">M5E 1W7</h4>
+              </li>
+            </ul>
+          </div>
+        </div>
+
       </div>
+
     </div>
   </div>
-</div>
 
 
-<div class="container py-3">
-  <div class="row whitespace">
-
-    <div class="col px-5">
-      <div class="menu-card"><i class="fas fa-shopping-cart fa-4x p-3"></i>
-        <div class="px-2">
-          <h5>E-Commerce</h5>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex quis eos aut accusantium, repudiandae nam.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col px-5">
-      <div class="menu-card"><i class="fab fa-google fa-4x p-3"></i>
-        <div class="px-2">
-          <h5>Google My Business</h5>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex quis eos aut accusantium, repudiandae nam.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="container py-3 mb-5">
-  <div class="row whitespace">
-
-    <div class="col px-5">
-      <div class="menu-card"><i class="fas fa-file-invoice-dollar fa-4x pl-4 pr-4"></i>
-        <div class="px-2">
-          <h5>Book Customers Online</h5>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex quis eos aut accusantium, repudiandae nam.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col px-5">
-      <div class="menu-card"><i class="fas fa-users fa-4x p-3"></i>
-        <div class="px-2">
-          <h5>Build Online Teams</h5>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex quis eos aut accusantium, repudiandae nam.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-</div>
-<br><br>
-
-
-<div class="container-fluid m-0">
-  <div class="row">
-    <div class="col-5 text-center border to">
-    </div>
-    <div class="col-7 gradient2 p-5">
-
-      <h3 class="contact mb-4">Get in touch with us to schedule a free consultation</h3>
-
-      <div class="d-flex flex-row p-0 ml-5 mb-3">
-        <div class="d-flex flex-col mt-3">
-          <i class="fas fa-phone-square-alt fa-3x"></i>
-        </div>
-        <div class="d-flex flex-col pt-4 pl-5 contact">
-          <h4>(416) 578-9849</h4>
-        </div>
-      </div>
-
-      <div class="d-flex flex-row p-0 ml-5 mb-3">
-        <div class="d-flex flex-col mt-3">
-          <i class="fas fa-envelope-square fa-3x"></i>
-        </div>
-        <div class="d-flex flex-col pt-4 pl-5 contact">
-          <h4>info@vqwebsites.com</h4>
-        </div>
-      </div>
-
-      <div class="d-flex flex-row p-0 ml-5">
-        <div class="d-flex flex-col mt-3">
-          <i class="fas fa-building fa-3x"></i>
-        </div>
-        <div class="d-flex flex-col pt-4">
-          <ul class="pl-5 contact">
-            <li>
-              <h4>1 Yonge Street</h4>
-            </li>
-            <li>
-              <h4>Suite 1801</h4>
-            </li>
-            <li>
-              <h4>Toronto, ON</h4>
-              </Toronto>
-            </li>
-            <li>
-              <h4>M5E 1W7</h4>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-    </div>
-
-  </div>
-</div>
-
-<!-- FORM TITLE -->
-<!-- NAME
+  <!-- FORM TITLE -->
+  <!-- NAME
 PHONE NUMBER
 EMAIL
 COMMENTS -->
-<!-- SEND BUTTON -->
-<div class="container-fluid contact-form m-0 p-5">
-  <div class="row justify-content-center contact pb-2">
-  <h3>Have A Question?</h3>
-</div>
-  <form>
-    <div class="row justify-content-center pb-3">
-      <div class="col-6">
-        <input type="text" class="form-control" placeholder="Name">
-      </div>
-    </div>
-    <div class="row justify-content-center pb-3">
-      <div class="col-6">
-        <input type="text" class="form-control" placeholder="Phone Number">
-      </div>
-    </div>
-    <div class="row justify-content-center pb-3">
-      <div class="col-6">
-        <input type="text" class="form-control" placeholder="Email">
-      </div>
-    </div>
-    <div class="row justify-content-center pb-3">
-      <div class="col-6">
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Tell us about your business."></textarea>
-      </div>
-    </div>
+  <!-- SEND BUTTON -->
 
-    <div class="row justify-content-center">
-      <div class="col-6">
-        <button type="button" class="btn btn-gradient btn-lg btn-block" data-toggle="button"><strong>Send It</strong></button>
-      </div>
+  <!-- WHITESPACE -->
+  <div class="container-fluid whitebanner"></div>
+  <!-- WHITESPACE -->
+  <div class="container-fluid whitebanner"></div>
+  <!-- WHITESPACE -->
+  <div class="container-fluid whitebanner"></div>
+
+  <div class="container">
+
+    <h1 class="text-center pb-5">Have A Question?</h1>
+
+    <div class="contact-form py-5 col-9 ">
+      <form>
+        <div class="row justify-content-center pb-3">
+          <div class="col-6">
+            <input type="text" class="form-control" placeholder="Name">
+          </div>
+        </div>
+        <div class="row justify-content-center pb-3">
+          <div class="col-6">
+            <input type="text" class="form-control" placeholder="Phone Number">
+          </div>
+        </div>
+        <div class="row justify-content-center pb-3">
+          <div class="col-6">
+            <input type="text" class="form-control" placeholder="Email">
+          </div>
+        </div>
+        <div class="row justify-content-center pb-3">
+          <div class="col-6">
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+              placeholder="Tell us about your business."></textarea>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-6">
+            <button type="button" class="btn btn-gradient btn-lg btn-block" data-toggle="button"><strong
+                class="text-white">Send
+                It</strong></button>
+          </div>
+        </div>
+
+      </form>
     </div>
-    
-  </form>
-</div>
+  </div>
 
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.min.js"
-      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-      crossorigin="anonymous"
-    ></script>
+  <div class="footer">
 
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
     integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-  </script>
-
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-</script>
-
-
-
-    <script>
-      // Get the current year for the copyright
-      $('#year').text(new Date().getFullYear());      
     </script>
 
-  </body>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+
+
+
+  <script>
+    // Get the current year for the copyright
+    $('#year').text(new Date().getFullYear());      
+  </script>
+
+</body>
+
 </html>
