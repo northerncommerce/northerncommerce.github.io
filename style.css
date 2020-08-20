@@ -403,6 +403,42 @@ span {
   border-bottom: 5px #ff9f4e dashed;
 }
 
-.svg{
-  max-width:100% !important;
+.svg1{
+  background-image: url('img/svg/video_call.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height:10rem;
+  background-position: center bottom;
+}
+
+.svg2{
+  background-image: url('img/svg/designer__isometric.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height:10rem;
+  background-position: center bottom;
+}
+
+.svg3{
+  background-image: url('img/svg/online_presentation.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height:10rem;
+  background-position: center bottom;
+}
+
+.svg4{
+  background-image: url('img/svg/start_up.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height:10rem;
+  background-position: center bottom;
+}
+
+.svg5{
+  background-image: url('img/svg/finance_analysis_.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height:10rem;
+  background-position: center bottom;
 }
