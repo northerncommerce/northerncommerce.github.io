@@ -152,10 +152,10 @@ min-height:100%;
 
 .architect {
   background-image: url('img/architect.jpg');
-  background-size: 150%;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  border-right: 1px ridge #454545;
+  /* border-right: 1px ridge #454545; */
 }
 
 .gradient1 {
@@ -211,9 +211,7 @@ i {
 }
 
 .banner1 {
-  height: 15rem;
-  border-top: 2px ridge #454545;
-  border-bottom: 2px ridge #454545;
+  min-height:25rem;
 }
 
 .btn-gradient {
