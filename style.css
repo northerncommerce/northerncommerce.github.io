@@ -1,13 +1,6 @@
 body,
 html {
   font-family: 'Titillium Web', sans-serif;
-  box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
 }
 
 .bg-fade-in {
