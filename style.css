@@ -266,9 +266,9 @@ ul {
 
 .comp-photo-2 {
   position: absolute;
-  top: 5rem;
+  top: 7rem;
   right: 2rem;
-  max-width: 60%;
+  max-width: 50%;
   max-height:70%;
   box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.4);
   border-radius: 2px;
@@ -277,9 +277,9 @@ ul {
 
 .comp-photo-3 {
   position: absolute;
-  top: 16rem;
+  top: 12rem;
   left: 5rem;
-  max-width: 55%;
+  max-width: 50%;
   max-height:60%;
   box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.4);
   border-radius: 2px;
