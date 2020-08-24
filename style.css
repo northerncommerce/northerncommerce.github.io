@@ -19,7 +19,6 @@ html {
 }
 
 .covid {
-
   background: #ec008c; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -87,7 +86,7 @@ html {
 
 .menu-card {
   border: 1px solid #348ac7;
-  box-shadow: -1px 3px 20px 0 rgba(0, 0, 0, 0.2 );
+  box-shadow: -1px 3px 20px 0 rgba(0, 0, 0, 0.2);
   border-radius: 8px;
   height: 10rem;
   display: flex;
@@ -139,8 +138,8 @@ img {
 min-height:100%;
 } */
 
-.img-hack{
-  height:12rem;
+.img-hack {
+  height: 12rem;
 }
 
 .architect {
@@ -201,7 +200,7 @@ i {
 }
 
 .banner1 {
-  min-height:25rem;
+  min-height: 25rem;
 }
 
 .btn-gradient {
@@ -211,7 +210,6 @@ i {
 ul {
   list-style: none;
 }
-
 
 .contact-form {
   /* background: linear-gradient(to right, #fc6767, #ec008c); */
@@ -248,7 +246,11 @@ ul {
 
 .comp-L {
   position: relative;
-  height:35rem;
+  height: 23rem;
+  /* background-image: url('img/builder.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
 }
 
 .comp-photo-1 {
@@ -256,7 +258,7 @@ ul {
   top: 0rem;
   left: 2rem;
   max-width: 60%;
-  max-height:60%;
+  max-height: 60%;
   box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.4);
   border-radius: 2px;
   outline: 2px ridge #348ac7;
@@ -267,7 +269,7 @@ ul {
   top: 7rem;
   right: 2rem;
   max-width: 50%;
-  max-height:70%;
+  max-height: 70%;
   box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.4);
   border-radius: 2px;
   outline: 2px ridge #ec008c;
@@ -278,7 +280,7 @@ ul {
   top: 12rem;
   left: 5rem;
   max-width: 50%;
-  max-height:60%;
+  max-height: 60%;
   box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.4);
   border-radius: 2px;
   outline: 2px ridge #348ac7;
@@ -305,7 +307,7 @@ ul {
   text-shadow: none;
 
   border: 1px solid #348ac7;
-  box-shadow: -1px 3px 20px 0 rgba(0, 0, 0, 0.2 );
+  box-shadow: -1px 3px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
 .count {
@@ -388,42 +390,42 @@ span {
   border-bottom: 5px #ff9f4e dashed;
 }
 
-.svg1{
+.svg1 {
   background-image: url('img/svg/video_call.svg');
   background-repeat: no-repeat;
   background-size: contain;
-  min-height:10rem;
+  min-height: 10rem;
   background-position: center bottom;
 }
 
-.svg2{
+.svg2 {
   background-image: url('img/svg/designer__isometric.svg');
   background-repeat: no-repeat;
   background-size: contain;
-  min-height:10rem;
+  min-height: 10rem;
   background-position: center bottom;
 }
 
-.svg3{
+.svg3 {
   background-image: url('img/svg/online_presentation.svg');
   background-repeat: no-repeat;
   background-size: contain;
-  min-height:10rem;
+  min-height: 10rem;
   background-position: center bottom;
 }
 
-.svg4{
+.svg4 {
   background-image: url('img/svg/start_up.svg');
   background-repeat: no-repeat;
   background-size: contain;
-  min-height:10rem;
+  min-height: 10rem;
   background-position: center bottom;
 }
 
-.svg5{
+.svg5 {
   background-image: url('img/svg/finance_analysis_.svg');
   background-repeat: no-repeat;
   background-size: contain;
-  min-height:10rem;
+  min-height: 10rem;
   background-position: center bottom;
 }
