@@ -86,7 +86,8 @@ html {
 
 .menu-card {
   border: 1px solid #348ac7;
-  box-shadow: -1px 3px 20px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 4px 4px 15px 0 rgba(0, 0, 0, 0.2);
+  /* box-shadow: 4px 4px 15px 0 rgba(0, 0, 0, 0.4); */
   border-radius: 8px;
   height: 10rem;
   display: flex;
@@ -371,9 +372,9 @@ span {
 
 .pricing-card {
   /*   border-radius:10px; */
-  border: solid 4px;
-  box-shadow: 15px 15px 0px #454545;
-  background: #f7f1e3;
+  border: 1px solid #348ac7;
+  box-shadow: 4px 4px 15px 0 rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
 }
 
 .pricing-card-header1 {
