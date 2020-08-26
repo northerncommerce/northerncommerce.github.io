@@ -84,6 +84,27 @@ html {
   }
 }
 
+
+/* If the screen size is 576px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 576px) {
+  .header-display-4 {
+      font-size: 3.5rem;
+      font-weight: 300;
+      line-height: 1.2;
+  }
+}
+
+/* If the screen size is 575px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 575px) {
+  .header-display-4 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+}
+
+
+
 .menu-card {
   border: 1px solid #348ac7;
   box-shadow: 4px 4px 15px 0 rgba(0, 0, 0, 0.2);
