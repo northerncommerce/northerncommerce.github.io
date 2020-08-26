@@ -115,6 +115,10 @@ html {
   align-items: center;
 }
 
+.icon-box{
+  width:20rem;
+}
+
 /* .slogan {
   height: 85vh;
   vertical-align: text-bottom;
