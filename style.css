@@ -296,7 +296,7 @@ ul {
   max-height: 60%;
   box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.4);
   border-radius: 2px;
-  outline: 2px ridge #348ac7;
+  outline: 2px ridge #7474bf;
 }
 
 .comp-photo-2 {
@@ -318,7 +318,7 @@ ul {
   max-height: 60%;
   box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.4);
   border-radius: 2px;
-  outline: 2px ridge #348ac7;
+  outline: 2px ridge #7474bf;
 }
 
 .value-prop {
@@ -341,7 +341,7 @@ ul {
   /* box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.2); */
   text-shadow: none;
 
-  border: 1px solid #348ac7;
+  border: 1px solid #7474bf;
   box-shadow: -1px 3px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -471,4 +471,10 @@ span {
   background-size: contain;
   min-height: 10rem;
   background-position: center bottom;
+}
+
+ion-icon {
+  font-size: 88px; 
+  color: #7474bf;
+ --ionicon-stroke-width: 16px;
 }
