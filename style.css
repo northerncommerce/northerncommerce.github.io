@@ -84,13 +84,12 @@ html {
   }
 }
 
-
 /* If the screen size is 576px wide or more, set the font-size of <div> to 80px */
 @media screen and (min-width: 576px) {
   .header-display-4 {
-      font-size: 3.5rem;
-      font-weight: 300;
-      line-height: 1.2;
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
   }
 }
 
@@ -103,8 +102,6 @@ html {
   }
 }
 
-
-
 .menu-card {
   border: 1px solid #7474bf;
   box-shadow: 4px 4px 15px 0 rgba(0, 0, 0, 0.2);
@@ -115,8 +112,8 @@ html {
   align-items: center;
 }
 
-.icon-box{
-  width:20rem;
+.icon-box {
+  width: 20rem;
 }
 
 /* .slogan {
@@ -133,13 +130,18 @@ html {
   justify-content: center;
 }
 
-img {
+/* img {
   max-width: 50%;
   height: auto;
   text-align: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
+} */
+
+img {
+  max-width: 90%;
+  height: auto;
 }
 
 .newnav {
@@ -344,7 +346,6 @@ ul {
   border: 1px solid #7474bf;
   /* box-shadow: -1px 3px 20px 0 rgba(0, 0, 0, 0.2); */
   box-shadow: 4px 4px 15px 0 rgba(0, 0, 0, 0.2);
- 
 }
 
 .count {
@@ -356,7 +357,7 @@ ul {
 }
 
 .value-prop-span {
-  display:inline-block;
+  display: inline-block;
   padding: 0.5rem 0.5rem;
   color: white;
   background: #ec008c; /* fallback for old browsers */
@@ -427,7 +428,7 @@ ul {
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
   height: 100%;
-  width:100%;
+  width: 100%;
 }
 
 .pricing-card-header2 {
@@ -436,7 +437,7 @@ ul {
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
   height: 100%;
-  width:100%;
+  width: 100%;
 }
 
 .underline {
@@ -484,7 +485,7 @@ ul {
 }
 
 ion-icon {
-  font-size: 88px; 
+  font-size: 88px;
   color: #7474bf;
- --ionicon-stroke-width: 16px;
+  --ionicon-stroke-width: 16px;
 }
