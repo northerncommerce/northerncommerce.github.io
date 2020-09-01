@@ -395,7 +395,7 @@ ul {
 }
 
 .btn-bright {
-  background-color: #ff9f4e !important;
+  background-color: #fa7d09 !important;
 }
 
 .marker {
@@ -488,4 +488,20 @@ ion-icon {
   font-size: 88px;
   color: #7474bf;
   --ionicon-stroke-width: 16px;
+}
+
+.accent{
+  display:inline-block;
+  position:relative;
+  text-align: center;
+}
+
+.accent:before{
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 1px;
+  bottom: 0;
+  left: 25%;
+  border-bottom: 5px solid #ec008c;
 }
