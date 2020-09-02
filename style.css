@@ -396,6 +396,7 @@ ul {
 
 .btn-bright {
   background-color: #fa7d09 !important;
+  border: 2px solid white;
 }
 
 .marker {
@@ -504,4 +505,8 @@ ion-icon {
   bottom: 0;
   left: 25%;
   border-bottom: 5px solid #ec008c;
+}
+
+.bg-pattern{
+  background:linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2)), url('/img/email-pattern.png');
 }
