@@ -140,7 +140,7 @@ html {
 } */
 
 img {
-  max-width: 90%;
+  max-width: 9 00%;
   height: auto;
 }
 
@@ -288,7 +288,7 @@ ul {
     #ec008c
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   margin: auto;
-  border-radius:15px;
+  border-radius: 15px;
   border: 2px solid white;
 }
 
@@ -303,13 +303,29 @@ ul {
   z-index: -1;
 }
 
-.comp-L {
-  position: relative;
-  height: 23rem;
-  /* background-image: url('img/builder.jpg');
-  background-size: cover;
+/* .comp-L {
+  background-image: url('img/photo-comp-redo.png');
   background-position: center;
-  background-repeat: no-repeat; */
+  background-repeat: no-repeat;
+  background-size: 70%;
+  height: 30rem;
+} */
+
+.photo-comp-L img {
+  width: 80%;
+  height: auto;
+}
+
+@media only screen and (max-width: 575px) {
+  .photo-comp-L img {
+    width: 95%;
+    height: auto;
+  }
+}
+
+.photo-comp-R {
+  align-items: center;
+  display: flex;
 }
 
 .comp-photo-1 {
@@ -513,14 +529,14 @@ ion-icon {
   --ionicon-stroke-width: 16px;
 }
 
-.accent{
-  display:inline-block;
-  position:relative;
+.accent {
+  display: inline-block;
+  position: relative;
   text-align: center;
 }
 
-.accent:before{
-  content: "";
+.accent:before {
+  content: '';
   position: absolute;
   width: 50%;
   height: 1px;
@@ -529,30 +545,34 @@ ion-icon {
   border-bottom: 5px solid #ec008c;
 }
 
-.bg-pattern{
-  background:linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2)), url('/img/email-pattern.png');
+.bg-pattern {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.2)
+    ),
+    url('/img/email-pattern.png');
 }
 
-.modal-content-custom{
+.modal-content-custom {
   position: relative;
-    width: 100%;
-    pointer-events: auto;
-    background-color: #fff;
-    background-clip: padding-box;
+  width: 100%;
+  pointer-events: auto;
+  background-color: #fff;
+  background-clip: padding-box;
 
-    background: #ec008c; /* fallback for old browsers */
-    background: -webkit-linear-gradient(
-      to right,
-      #fc6767,
-      #ec008c
-    ); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(
-      to right,
-      #fc6767,
-      #ec008c
-    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    margin: auto;
-    border-radius: 15px;
-    z-index: 1;
-    width: 350px;
-  }
+  background: #ec008c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #fc6767,
+    #ec008c
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #fc6767,
+    #ec008c
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin: auto;
+  border-radius: 15px;
+  z-index: 1;
+  width: 350px;
+}
