@@ -96,9 +96,9 @@ html {
 /* If the screen size is 575px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 575px) {
   .header-display-4 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 300;
-    line-height: 1.2;
+    line-height: 1.5;
   }
 }
 
@@ -107,13 +107,13 @@ html {
   box-shadow: 4px 4px 15px 0 rgba(0, 0, 0, 0.2);
   /* box-shadow: 4px 4px 15px 0 rgba(0, 0, 0, 0.4); */
   border-radius: 8px;
-  height: 10rem;
+  min-height: 10rem;
   display: flex;
   align-items: center;
 }
 
-.icon-box {
-  width: 20rem;
+.menu-paragraph{
+  line-height:1.2rem;
 }
 
 /* .slogan {
@@ -300,7 +300,11 @@ ul {
 /* z-index only works on items that have a 'position' property ie. position: absolute */
 
 .bg-pattern {
-  background-image: url('/img/email-pattern.png');
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url('/img/email-pattern.png');
 }
 
 /* .comp-L {
@@ -330,7 +334,7 @@ ul {
 
 .wavy-card{
   border-radius:10px; 
-  box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.25); 
+  box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.25); 
   width: 80%; 
 }
 
@@ -339,6 +343,11 @@ ul {
 }
 
 @media only screen and (max-width: 575px) {
+
+  .wavy-card{
+    width: 95%;
+  }
+
   .wavy-card-text{
     padding:0.5rem;
   }
