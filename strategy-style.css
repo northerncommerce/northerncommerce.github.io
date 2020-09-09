@@ -1,0 +1,23 @@
+body,
+html {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.box1{
+    height:40rem;
+    width:100%;
+    background-image: url(/../img/money.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box2{
+    height:30rem;
+}
+
+.box3{
+    height:30rem;
+    background-image: url(/../img/lawnmower.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
