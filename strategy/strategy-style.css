@@ -6,7 +6,7 @@ html {
 .box1{
     height:40rem;
     width:100%;
-    background-image: url(/img/money.jpg);
+    background-image: url(/../img/money.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -17,7 +17,7 @@ html {
 
 .box3{
     height:30rem;
-    background-image: url(/img/lawnmower.jpg);
+    background-image: url(/../img/lawnmower.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
